@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+html {
+  background: url(assets/back.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+html body h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #a56c6e;
+  margin-top: 60px;
+}
+
+html body h1 span {
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+html body h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+html body h2 span {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: #a56c6e;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 8px;
+  color: #f0e8da;
+}
+
+.cards {
+  display: flex;
+  max-width: 680px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  background-color: #d3c5c5;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  color: #a56c6e;
+}
+
+.card .time,
+.card .timer {
+  width: 100%;
+  text-align: center;
+}
+
+.card .timer {
+  font-size: 40px;
+}
+
+.card .timer {
+  font-weight: 500;
+}
+
+.button {
+  background-color: #a56c6e;
+  color: #f0e8da;
+  padding: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.card.selected {
+  background-color: #e7dfdf;
+}
